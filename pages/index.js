@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
       <div className="mx-auto lg:w-3/5 lg:h-auto lg:flex lg:flex-row ">
           <img className="rounded-tr-md rounded-tl-md h-48 w-full lg:h-auto lg:w-2/5 lg:rounded-br-md lg:rounded-tr-none " src='/images/drawers.jpg' alt='' />
-          <div className="bg-white p-8 rounded-bl-md rounded-br-md">
+          <div className="bg-white p-8 rounded-bl-md rounded-br-md lg:rounded-bl-none lg:rounded-tr-md">
             <h2 className='text-gray-700 font-semibold'>Shift the Overall look and feel by adding these wonderful touches to furniture in your home</h2>
             <p className='text-gray-600 text-sm mt-4'>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
             <div className="flex items-center mt-8">
