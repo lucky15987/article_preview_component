@@ -15,7 +15,14 @@ export default function Home() {
           <p className='text-gray-600 text-sm mt-4'>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
           <div className="flex items-center mt-8">
              <div className="flex item-center">
-                <img src="./images/avatar-michelle.jpg" alt="profile picture of user Michelle" />
+                <img className='h-10 w-10 rounded-full' src="./images/avatar-michelle.jpg" alt="profile picture of user Michelle" />
+                <div className="ml-4">
+                  <p className='text-gray-800 text-sm font-semibold'>Michelle Appleton</p>
+                  <p className='text-gray-600 text-sm'>28 Jun 2020</p>
+                </div>                
+             </div>
+             <div className="w-8 h-8 ml-auto bg-gray-200 rounded-full">
+              
              </div>
           </div>
       </div>
