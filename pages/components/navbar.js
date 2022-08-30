@@ -11,7 +11,7 @@ export default function Navbar() {
                     <li><a href="./support" className="flex px-24 py-5 my-2 text-lg bg-yellow-300 rounded-md h-16 hover:bg-yellow-400">Support</a></li>
                 </ul>
             </div> */}
-            <div className="fixed top-0 left-0 h-screen w-16 flex flex-col bg-gray-900 text-white shadow-lg">
+            <div className="fixed top-0 left-0 h-screen w-16 flex flex-col bg-gray-900 text-white shadow-lg scale-0">
                 <SideBarIcon icon={<FaFire size={"28"}/> } />                
                 <SideBarIcon icon={<BsPlus size={"32"}/> } />                
                 <SideBarIcon icon={<BsFillLightningFill size={"20"}/> } />                
