@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { FaShare } from 'react-icons/fa'
+import SideBar from './components/sidebar'
 
 export default function Home() {
   return (
@@ -20,9 +21,10 @@ export default function Home() {
                 <p className='text-gray-600 text-sm'>28 Jun 2020</p>
               </div>
             </div>
-            <button href="#" className="w-8 h-8 ml-auto bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300">
+            <button href="#" className="w-8 h-8 ml-auto bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 group">
               
               <FaShare color='gray' size={18}/>
+              <SideBar />
             </button>
           </div>
         </div>
